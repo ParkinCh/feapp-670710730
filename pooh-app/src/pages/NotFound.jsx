@@ -6,7 +6,7 @@ function NotFound() {
       <h1 className="text-6xl font-bold text-slate-300">404</h1>
       <p className="mt-4 text-slate-500">ไม่พบหน้าที่คุณกำลังหา</p>
       <Link to="/" className="mt-6 inline-block text-cyan-600 hover:underline">
-        กลับหน้าแรก
+        กลับไปหน้าแรก
       </Link>
     </div>
   );
