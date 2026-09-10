@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { movies } from './data';
+import { movies } from '../data/data';
 
 function MovieGallery() {
   const [index, setIndex] = useState(0);
@@ -27,6 +27,10 @@ function MovieGallery() {
               className="rounded-lg bg-cyan-600 px-4 py-2 font-semibold text-white">
         เรื่องถัดไป
       </button>
+      {movie.poster&&(
+        <img src={movie.poster} alt={movie.title}
+        className="mx-auto h-64 rounded-lg object-cover shadow-md"/>
+      )}
 
       <h2 className="mt-4 text-2xl font-bold text-slate-800">
         {movie.title} <span className="text-slate-400">({movie.year})</span>
