@@ -110,5 +110,27 @@ export const movies = [
     "rating": 6.7,
     "detail": "ในภาพยนตร์ระทึกขวัญจิตวิทยาเรื่องเดอะรันเนอร์ ไมอา มาร์เทนทนายความผู้ปราดเปรื่องแห่งลอนดอนต้องเจอเรื่องช็อกขณะวิ่งจ๊อกกิ้งตอนเช้า เมื่อสายปริศนาโทรมาบอกว่าลูกชายของเธอถูกลักพาตัวไป หากต้องการได้ลูกคืน เธอต้องวิ่งต่อไป ทำตามคำสั่งสุดโหดทุกข้อ และห้ามไว้ใจใคร วินาทีต่อจากนี้คือบททดสอบว่าคนเป็นแม่จะยอมทำเพื่อลูกได้มากแค่ไหน",
     "poster": "https://image.tmdb.org/t/p/w342/uxCaBoYXsDC4A0SqTm3SISj0OwK.jpg"
+  },
+  {
+    "id": 11,
+    "tmdbId": 1386316,
+    "title": "The Snake",
+    "titleTh": "เดอะ สเน็ค",
+    "genre": "Sci-Fi",
+    "year": 2023,
+    "rating": 6.7,
+    "detail": "หนังที่ดีที่สุดของไทย",
+    "poster": "https://cms.dmpcdn.com/news/2020/08/12/fb2fc1b0-dc8a-11ea-8433-c5d4d14f3a3c_original.jpeg"
+  },
+  {
+    "id": 12,
+    "tmdbId": 1386317,
+    "title": "dragon ball super broly",
+    "titleTh": "ดราก้อนบอล ซูเปอร์ : Broly",
+    "genre": "Action",
+    "year": 2023,
+    "rating": 10.0,
+    "detail": "ซุปเปอร์ไซย่าในตำนาน",
+    "poster": "https://sm.ign.com/t/ign_latam/screenshot/default/dbsbroly_ebjc.2560.jpg"
   }
 ];

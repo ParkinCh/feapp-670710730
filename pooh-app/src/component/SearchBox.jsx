@@ -1,5 +1,6 @@
-function SearchBox() {
-  const [query, setQuery] = useState('');
+
+function SearchBox({query,setQuery}) {
+
 
   return (
     <div className="space-y-2 p-4">
